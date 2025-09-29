@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mikayla C</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link the webpage's JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO (you are here)</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Mikayla's Work</h1>
+    </header>
+
+    <main>
+      <h2>Video demonstrations</h2>
+
+      <video width="720" height="500" controls autoplay>
+        <source src="assets/ICP.mp4" type="video/mp4" />
+      </video>
+
+      <h3>Explantion of video</h3>
+      <p class="box">
+        In this project, I created a simple comment forum that lets users view
+        and add comments and includes the date and time of when that comment was
+        added along with the display. The program uses Python to read and write
+        comment data from a text file. I chose to use a file to save the
+        comments so the data wouldn't be lost when the program stops running.
+      </p>
+
+      <video width="720" height="500" controls autoplay>
+        <source src="assets/CSP.mp4" type="video/mp4" />
+      </video>
+      <h3>Explantion of video</h3>
+      <p class="box">
+        In this project, I created a program that takes data from the "Top 50
+        USA" music ranking chart. The code separates the songs into two separate
+        list called "top25Art", which takes the top 25 songs in the ranking, and
+        "bottom25Art" which takes the bottom half. It uses the lists to store
+        the data of artist, track, and the ranking is used to properly sort them
+        according to their ranking. When designing this project, I put each set
+        of data in its own separate list. For example, the name of each artist
+        was giving to the variable called "artist" using getColumn() and then
+        the top 25 are in an empty list called "top25Art" as well as the other
+        half in "bottom25Art". Then I used a loop and conditional logic to check
+        each song’s ranking and place it in either the top 25 or bottom 25 list
+        included with the song and artist at the same index as the ranking.
+      </p>
+
+      <video width="720" height="500" controls autoplay>
+        <source src="assets/CSA.mp4" type="video/mp4" />
+      </video>
+      <h3>Explantion of video</h3>
+      <p class="box">
+        In this project, I used arrays to store data from files and created
+        methods to search for matching results. This demonstrates that can
+        design computer-based solutions to search through data that can be
+        specified. I used different arrays for each file information by using
+        the FileReader.toStringArray() method such as the artist names were in
+        an array called "artistData". Then making the search methods findGenre()
+        & findArtist(), I used for loops to go through the data of either genre
+        or artist depending on the method and conditional statements to match
+        the user input while ignoring capitalization using .equalsIgnoreCase()
+        to make the search user-friendly. I also created counters to still give
+        an output if what the user searched is not in the list track.
+      </p>
+
+      <h1>These are just few of many 😉</h1>
+    </main>
+  </body>
+</html>
